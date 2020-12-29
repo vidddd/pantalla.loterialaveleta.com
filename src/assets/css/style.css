@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'Poppins Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Medium'),
+    url('../fonts/Poppins-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Poppins SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins SemiBold'),
+    url('../fonts/Poppins-SemiBold.woff') format('woff');
+}
+
+body {
+  background: #fae0c1;
+  color: #616569;
+  font-family: 'Poppins SemiBold', Arial, sans-serif !important;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+.led-main .bloque {
+  padding: 30px 2%;
+}
+.collogo img {
+  width: 690px;
+  text-align: center;
+}
+.collogo4 img {
+  width: 550px;
+  text-align: center;
+  padding-top: 2%;
+}
+.bloque-botes {
+  z-index: 100;
+}
+.card {
+  background: white;
+  border-radius: 5px;
+  padding: 1.1rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.card .col img {
+  padding: 10px;
+  width: 160px;
+}
+.botenum {
+  margin-top: 6px;
+  font-size: 2.5em;
+  width: 100%;
+  font-weight: 900;
+}
+.botenum span {
+  /* no hay bote */
+  font-size: 18px;
+}
+.emil .botenum {
+  color: #153f69;
+}
+.emil caption {
+  background-color: #153f69;
+}
+.lanc .botenum {
+  color: #3378b3;
+}
+.lnac caption {
+  background-color: #3378b3;
+}
+.lapr .botenum {
+  color: #008547;
+}
+.lapr caption {
+  background-color: #008547;
+}
+.bono .botenum {
+  color: #7a8634;
+}
+.bono caption {
+  background-color: #7a8634;
+}
+.elgr .botenum {
+  color: #dc3f47;
+}
+.elgr caption {
+  background-color: #dc3f47;
+}
+.laqu .botenum {
+  color: #cb1517;
+}
+.laqu caption {
+  background-color: #cb1517;
+}
+.qgol .botenum {
+  color: #79cfdd;
+}
+.qgol caption {
+  background-color: #79cfdd;
+}
+.lotu .botenum {
+  color: #d16929;
+}
+.lotu caption {
+  background-color: #d16929;
+}
+.qupl .botenum {
+  color: #eab842;
+}
+.qupl caption {
+  background-color: #eab842;
+}
+
+#resultados-led {
+  margin: 0;
+}
+
+#resultados-led .bruja {
+  width: 300px;
+}
+.table-resultados {
+  margin: 30px 0;
+  border-collapse: collapse;
+  border-radius: 5px;
+  width: 100%;
+  border-width: 1px;
+  background-color: #fff;
+}
+.table-resultados caption {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 100%;
+  padding: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.laqu caption,
+.qgol caption {
+  font-size: 1.4em;
+}
+
+.laqu .table-futbol tr:nth-child(even) {
+  background-color: rgba(227, 6, 19, 0.05);
+}
+.qgol .table-futbol tr:nth-child(even) {
+  background-color: rgba(64, 186, 206, 0.08);
+}
+.table-futbol {
+  width: 100%;
+}
+
+.table-resultados th,
+.table-resultados td {
+  padding: 8px;
+  text-align: left;
+}
+.table-resultados tr {
+  padding: 9px 0;
+}
+.table-resultados th {
+  height: 35px;
+}
+.lapr .complementario,
+.elgr .clave,
+.lotu .caballo,
+.bono .complementario {
+  padding-left: 20px;
+}
+.circulo span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+}
+
+.star {
+  background: url('../images/stars.svg') no-repeat scroll 0 0 transparent;
+  width: 48px;
+  height: 50px;
+  text-align: center;
+  color: #001367;
+  font-weight: bold;
+  display: inline-block;
+  float: none;
+  line-height: 2.25rem;
+  padding: 7px 0 0 0;
+  font-size: 19px;
+}
+.lapr .complementario span,
+.bono .complementario span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: #008547;
+  background-color: rgba(0, 133, 71, 0.31);
+  font-weight: 700;
+}
+.bono .complementario span {
+  background-color: rgba(118, 136, 40, 0.31);
+  color: #7a8634;
+}
+.lotu .caballo span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: rgba(236, 105, 32, 0.31);
+  color: #d16929;
+  font-weight: 700;
+}
+.emil .circulo span {
+  background-color: #153f69;
+}
+.bono .circulo span {
+  background-color: #7a8634;
+}
+.lapr .circulo span {
+  background-color: #008547;
+}
+.elgr .circulo span {
+  background-color: #dc3f47;
+}
+.lotu .circulo span {
+  background-color: #d16929;
+}
+.qupl .circulo span {
+  background-color: #eab842;
+}
+.nombre-sorteo {
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #3378b3;
+}
+.lnac .col img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.primerpremio {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: -4px 0;
+}
+.lnac .premio {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 29px;
+  color: #999;
+  font-weight: 700;
+}
+.dia-sorteo {
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.center {
+  text-align: center;
+}
+.imagejoker {
+  max-width: 50px;
+}
+.joker {
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 3px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Las animaciones de entrada y salida pueden usar */
+/* funciones de espera y duración diferentes.      */
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(50px);
+  opacity: 0;
+}
+.hooper-list {
+  height: 680px !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.header-pw {
+  margin-top: 10px;
+}
+#pantalla-web h1 {
+  font-size: 1.7em;
+}
+#pantalla-web h2 {
+  font-size: 2.8rem;
+  color: #008547;
+  letter-spacing: 0.1em;
+  border: 1px solid white;
+  padding: 20px;
+  background: white;
+  margin: 0 20%;
+  border-radius: 7px;
+}
+
+.image-pw {
+  margin: 20px;
+}
