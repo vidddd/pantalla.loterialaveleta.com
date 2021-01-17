@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-import store from './store'
 import VueResource from 'vue-resource'
 
 var numeral = require('numeral') //http://numeraljs.com/
 require('@/assets/css/style.css')
 require('@/assets/css/bootstrap-grid.min.css')
-
 Vue.use(VueResource)
 Vue.config.productionTip = false
+
 
 Vue.filter('formatBote', value => {
   let number = numeral(value)
@@ -18,7 +17,6 @@ Vue.filter('formatBote', value => {
 })
 
 new Vue({
-  store,
   data: {},
   render: h => h(App)
 }).$mount('#app')

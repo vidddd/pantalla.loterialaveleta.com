@@ -8,7 +8,7 @@
         <pantalla-resultados v-show="muestrario[1]"></pantalla-resultados>
       </transition>
     </main>
-    <button v-on:click="cambio">Cambio</button>
+        <button v-on:click="cambio">Cambio</button>
   </div>
 </template>
 
@@ -16,7 +16,7 @@
 /*
       <transition name="fade">
         <pantalla-web v-show="muestrario[2]"></pantalla-web>
-      </transition>
+      </transition
       <transition name="fade">
         <pantalla-quiniela v-show="muestrario[3]"></pantalla-quiniela>
       </transition>
@@ -43,7 +43,7 @@ export default {
       //self.resetMuestrario(3)
       setTimeout(function() {
         self.cambioMuestrario(activo)
-      }, 100)
+      }, 10)
     },
     cambioMuestrario: function(index) {
       let self = this
@@ -58,7 +58,7 @@ export default {
     let self = this
     setInterval(function() {
       self.cambio()
-    }, 50000) // 25 segundos
+    }, 40000)
   },
   components: {
     'pantalla-botes': PantallaBotes,
